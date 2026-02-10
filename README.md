@@ -1,167 +1,133 @@
-Expense Tracker Web Application
+# Expense Tracker Web Application
 
-Built with React.js
+**Built with React.js (Vite)**
 
-📌 Project Overview
+---
 
-The Expense Tracker Web Application is a responsive, user-friendly web app designed to help users track income and expenses, monitor available balance, and analyze spending behavior in real time.
-The application allows users to add, view, search, and delete transactions, providing a clear financial overview.
+## 📌 Project Overview
 
-This project was developed as part of the Antigravity Build Program to demonstrate practical skills in modern front-end development using React.
+The Expense Tracker Web Application is a responsive, user-friendly web app designed to help users track income and expenses, monitor available balance, and analyze spending behavior in real time. The application allows users to add, view, search, and delete transactions, providing a clear financial overview.
 
-🎯 Objectives
+---
 
-To build a real-world React application using component-based architecture
+## 🎯 Objectives
 
-To manage application state efficiently
+- Build a real-world React application using component-based architecture  
+- Manage application state efficiently  
+- Help users track daily financial transactions  
+- Display real-time balance, income, and expense summaries  
+- Improve hands-on experience with React and UI design  
 
-To help users track daily financial transactions
+---
 
-To display real-time balance, income, and expense summaries
+## 🛠️ Technology Stack
 
-To improve hands-on experience with React and UI design
+| Layer | Technologies |
+|------|-------------|
+| Front-end | React.js, JavaScript (ES6) |
+| Styling | CSS, Styled-Components |
+| State Management | React Hooks (`useState`, `useEffect`) |
+| Tooling | Node.js, npm |
+| IDE | VS Code |
+| Version Control | Git & GitHub |
 
-🛠️ Technology Stack
-Layer	Technologies
-Front-end	React.js, JavaScript (ES6)
-Styling	CSS, Styled-Components
-State Management	React Hooks (useState, useEffect)
-Tooling	Node.js, npm
-IDE	VS Code
-Version Control	Git & GitHub
-🏗️ Project Architecture
+---
 
-The project follows a modular React architecture:
+## 🏗️ Project Architecture
 
-Each feature is divided into reusable components
+The project follows a **modular React architecture**:
+- Each feature is divided into reusable components  
+- Central state management is handled in the main container  
+- Unidirectional data flow using props  
 
-Central state management handled in the main container
+---
 
-Unidirectional data flow using props
+## 📁 Folder Structure
 
-📁 Folder Structure
-expense/
- ├─ node_modules/
- ├─ public/
- ├─ src/
- │  ├─ components/
- │  │  ├─ AddTransaction.js
- │  │  ├─ OverviewComponent.js
- │  │  ├─ Tracker.js
- │  │  ├─ TransactionItem.js
- │  │  ├─ TransactionsContainer.js
- │  ├─ App.js
- │  ├─ App.css
- │  ├─ globalStyles.js
- │  ├─ index.js
- │  ├─ index.css
- ├─ package.json
- ├─ README.md
 
-🔍 Functional Description
-1️⃣ Add Transaction
+---
 
-Users can add income or expense with description and amount
+## 🔍 Functional Description
 
-Positive amounts → Income
+### 1️⃣ Add Transaction
+- Users can add income or expense with description and amount  
+- Positive amounts represent income  
+- Negative amounts represent expenses  
 
-Negative amounts → Expense
+### 2️⃣ Transaction List
+- Displays all transactions  
+- Supports search and filter functionality  
+- Each transaction includes a delete option  
 
-2️⃣ Transaction List
+### 3️⃣ Balance Overview
+Displays:
+- Total Balance  
+- Total Income  
+- Total Expenses  
 
-Displays all transactions
+### 4️⃣ Delete Transaction
+- Users can remove unwanted transactions  
+- Balance updates instantly  
 
-Supports searching/filtering
+---
 
-Each transaction has a delete option
+## 🔄 Application Workflow
 
-3️⃣ Balance Overview
+1. User enters transaction details  
+2. Data is stored in React state  
+3. Components re-render automatically  
+4. Summary values update in real time  
+5. User can search or delete transactions  
 
-Shows:
+---
 
-Total Balance
+## 🧠 Key Concepts Used
 
-Total Income
+- React Functional Components  
+- Props and State  
+- React Hooks  
+- Component Reusability  
+- Conditional Rendering  
+- Event Handling  
+- Styled-Components for clean UI  
 
-Total Expenses
+---
 
-4️⃣ Delete Transaction
+## 🌟 Features
 
-Users can remove unwanted entries
+- Clean and responsive user interface  
+- Real-time balance calculation  
+- Easy transaction management  
+- Search and filter functionality  
+- Beginner-friendly and scalable design  
 
-Balance updates instantly
+---
 
-🔄 Application Workflow
+## 🚧 Future Enhancements
 
-User enters transaction details
+- LocalStorage or database integration  
+- Category-wise expense tracking  
+- Monthly and yearly analytics  
+- Charts and graphs for visual analysis  
+- User authentication  
+- Export data to PDF or Excel  
 
-Data is stored in React state
+---
 
-Components re-render automatically
+## ✅ Conclusion
 
-Summary values update in real time
+The Expense Tracker Web Application demonstrates the practical use of **React.js** to build an interactive, real-world financial management tool. This project strengthened understanding of component-based design, state management, and dynamic UI updates, making it ideal for learning and showcasing front-end development skills.
 
-User can search or delete transactions
+---
 
-🧠 Key Concepts Used
+## ⚡ React + Vite
 
-React Functional Components
+This project uses **React with Vite**, providing fast development with Hot Module Replacement (HMR) and ESLint support.
 
-Props & State
+### Available Plugins
+- `@vitejs/plugin-react` – Uses Babel for Fast Refresh  
+- `@vitejs/plugin-react-swc` – Uses SWC for Fast Refresh  
 
-React Hooks
+---
 
-Component Reusability
 
-Conditional Rendering
-
-Event Handling
-
-Styled-Components for clean UI
-
-🌟 Features
-
-Clean and responsive UI
-
-Real-time balance calculation
-
-Easy transaction management
-
-Search and filter functionality
-
-Beginner-friendly and scalable design
-
-🚧 Future Enhancements
-
-LocalStorage / Database integration
-
-Category-wise expense tracking
-
-Monthly & yearly analytics
-
-Charts and graphs (visual analysis)
-
-User authentication
-
-Export data to PDF/Excel
-
-✅ Conclusion
-
-The Expense Tracker Web Application successfully demonstrates the practical use of React.js to build an interactive, real-world financial management tool.
-This project helped strengthen understanding of component-based design, state management, and dynamic UI updates, making it an ideal project for learning and showcasing front-end development skills.
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
