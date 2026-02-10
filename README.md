@@ -43,7 +43,30 @@ The project follows a **modular React architecture**:
 ---
 
 ## 📁 Folder Structure
-
+```text
+expense-tracker/
+├── node_modules/
+├── public/
+│ └── vite.svg
+├── src/
+│ ├── components/
+│ │ ├── AddTransaction.jsx
+│ │ ├── Balance.jsx
+│ │ ├── Header.jsx
+│ │ ├── IncomeExpenses.jsx
+│ │ └── TransactionList.jsx
+│ ├── context/
+│ │ ├── AppReducer.js
+│ │ └── GlobalState.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.css
+│ └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
 
 ---
 
